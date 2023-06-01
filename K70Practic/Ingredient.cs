@@ -27,7 +27,7 @@ namespace K70Practic
         public int UnitId { get; set; }
         public double AvailableCount { get; set; }
 
-
+        //Создаем поля для вывода в таблицу
         public string CostForCountIng { get { return $"{Cost} за {CostForCount}"; } }
         public string NameUnit { get { return Unit.Name; } }
 
